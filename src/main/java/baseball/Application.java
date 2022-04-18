@@ -1,7 +1,12 @@
 package baseball;
 
+import baseball.service.BaseballGame;
+
 public class Application {
+
     public static void main(String[] args) {
-        // TODO: 프로그램 구현
+        // #. 숫자야구게임 시작
+        BaseballGame baseballGame = new BaseballGame();
+        baseballGame.start();
     }
 }
